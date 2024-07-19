@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
-# SetUp Process for Nginx on a server
-#    Listens on port 80.
-#    Returns a page containing "Holberton School" when queried 
-#    at the root with a curl GET request.
+# a Bash script that configures a new Ubuntu machine to respect
+# above requirements (this script will be run on the server itself)
+# bash script to install nginx web server
+#   - Nginx should be listening on port 80
+#   - Return page containing "Holberton School" when queried
 
 apt-get update
 apt-get install -y nginx
